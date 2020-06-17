@@ -52,21 +52,21 @@
 
 * Models attempted include:
 
-           * Random Forest Classification with both Count Vectorizer and Tfidf Vectorizer
-           * Logistic Regression with Count Vectorizer
-           * XGBoost with both Count Vectorizer and Tfidf Vectorizer
-           * Naive Bayes with both Count Vectorizer and Tfidf Vectorizer
+   * Random Forest Classification with both Count Vectorizer and Tfidf Vectorizer
+   * Logistic Regression with Count Vectorizer
+   * XGBoost with both Count Vectorizer and Tfidf Vectorizer
+   * Naive Bayes with both Count Vectorizer and Tfidf Vectorizer
 
-     * Random Forest Classification gave us highest accuracy with both Count Vectorizer and Tfidf Vectorizer
- 
-           * Both Vectorizers gave us the same accuracy score of 78%, with differences in precision and recall
+	   * Random Forest Classification gave us highest accuracy with both Count Vectorizer and Tfidf Vectorizer
+
+	   * Both Vectorizers gave us the same accuracy score of 78%, with differences in precision and recall
 
 
 ### Final Model Results
 
 * Random Forest Classifier - TF-IDF Vectorizer
         
-          * We chose tfidf vectorizer because we thought recall was more important that precision in this case. We want to correctly identify more tweets pertaining to actual disaster scenarios. 
+	* We chose tfidf vectorizer because we thought recall was more important that precision in this case. We want to correctly identify more tweets pertaining to actual disaster scenarios. 
 
            
 ### Conclusions and Next steps
